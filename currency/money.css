@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('map2.jpg');
+    background-size: cover;   
+}
+#container{
+    width: 400px;
+    height: 500px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.7);
+    margin: 20vh auto 0 auto;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: center;
+    background-image: url('currency.jpg');
+    background-size:cover;   
+}
+input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid rgb(0,0,0);
+    outline: none;
+    margin-top: 40px;
+    font-family: cursive;
+    background: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+button{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    background-color:rgba(145, 139, 139, 0.4);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 900;
+    cursor: pointer;
+}
+#btn-1 ,#btn-3 ,#btn-5{
+   margin-right: 15px;
+}
+#container div{
+    width: 300px;
+    height: 60px;
+    border-bottom: 2px solid rgb(0,0,0);
+    margin-top: 40px;
+    
+}
+#btn-1{
+     outline:2px solid red;
+     border: none;
+     color: red;
+}
+#btn-2{
+    outline:2px solid blue;
+    border: none;
+    color: blue;
+}
+#btn-3{
+    outline:2px solid aqua;
+    border: none;
+    color: aqua;
+}
+#btn-4{
+    outline:2px solid orange;
+    border: none;
+    color: orange;
+}
+#btn-5{
+    outline:2px solid yellow;
+    border: none;
+    color: yellow;
+}
+#btn-6{
+    outline:2px solid ;
+    border: none;
+}
+ #result{
+    font-weight: 900;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#btn-1:hover{
+   background-color: red;
+   color: white;
+   outline: 2px solid white;
+}
+#btn-2:hover{
+    background-color: blue;
+    color: white;
+    outline: 2px solid white;
+}
+#btn-3:hover{
+    background-color: aqua;
+    color: white;
+    outline: 2px solid white;
+}
+#btn-4:hover{
+    background-color: orange;
+    color: white;
+    outline: 2px solid white;
+}
+#btn-5:hover{
+    background-color: yellow;
+    color: white;
+    outline: 2px solid white;
+}
+#btn-6:hover{
+    background-color: black;
+    color: white;
+    outline: 2px solid white;
+}
+

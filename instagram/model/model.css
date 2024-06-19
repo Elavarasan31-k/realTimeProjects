@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: auto;
+    height: 100px;
+    grid-template-areas: 
+    "one two";
+}
+.box1{
+    grid-area: one;
+    background-color: red;
+}
+.box2{
+    grid-area: two;
+    background-color: blue;
+}
+h1{
+    color:rgb(230, 35, 35);
+    font-family: sans-serif;
+}
+h1::first-letter{
+    font-size: 50px;
+}
+h1::nth-latter(7){
+    font-size: 50px;
+}

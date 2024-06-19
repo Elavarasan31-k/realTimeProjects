@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+} 
+.container{
+    display: grid;
+    grid-template-columns: 30% 30% 40% ;
+    grid-template-rows: 2vh 4vh 2vh;
+    grid-template-areas: "h h t"
+                          "a b c"
+                          "d e f" ;
+}

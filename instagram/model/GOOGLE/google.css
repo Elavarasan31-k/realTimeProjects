@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    background-color: rgb(82, 77, 77);
+    flex-wrap: wrap;
+}
+
+input{
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 300px;
+    display: inline;
+    margin-top: 10px;
+}
+i{
+    margin-right: 400px;
+}
+img{
+    width: 300px;
+    margin-top: 200px;   
+    
+}
+.container{
+    color: white;
+  
+}
+table{
+    margin-left: 600px;
+    
+}
+button{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(123, 116, 116);
+    border: none;
+    margin-top: 50px;
+}
+.p{
+    color: blue;
+margin-left:600px ;
+margin-top: 50px;
+}
+span{
+    color: white;
+}
+
+#one{
+    margin-left: -900px;
+    
+}
+button{
+    cursor: pointer;
+}

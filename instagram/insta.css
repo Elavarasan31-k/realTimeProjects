@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20vh auto 0 auto;
+    width: 700px;
+    height: 700px;
+}
+table img{
+    width: 100px;
+}
+i{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.insta{
+    width: auto;
+    height: 700px;
+}
+#pwd{
+    margin-top: 40px;
+    width: 250px;
+    height: 40px;
+    margin-left: 30px;
+    
+}
+.firstbox{
+    border: 1px solid black;
+    margin: 20px;
+    height:450px ;
+}
+.secbox{
+    border: 1px solid black;
+    margin:20px;
+    height: 60px;
+    text-align: center;
+    padding: 20px;
+}
+.fb{
+    width: 20px;
+    height: 20px;
+}
+a{
+    font-size: 20px;
+}
+.p::after{
+    content: '_____________';
+}
+.p::before{
+    content: '_____________';
+    margin-left: 40px;
+    
+}
+#input{
+    margin-top: 40px;
+    width: 250px;
+    height: 40px;
+    margin-left: 30px;
+}
+.login{
+    margin-top: 40px;
+    width: 250px;
+    height: 40px;
+    margin-left: 30px;
+    background-color: rgb(0, 136, 255);
+    border: none;
+    border-radius: 10px;
+}
+.fbk{
+    margin-left: 50px;
+    margin-top: 20px;
+ font-family: sans-serif;
+ font-weight: lighter;
+ 
+}
+h3{
+    margin-top: 10px;
+    margin-left:100px ;
+    font-weight:lighter;
+    font-size: 15px;
+}
+.p{
+    margin-top: 20px;
+}
+h4{
+    font-weight: lighter;
+}
+.h4{
+word-spacing: 40px;
+margin-left: 70px;
+margin-top: 40px;
+}
+.final{
+    margin-top: 30px;
+    margin-left: 700px;
+}
+a{
+    color: blue;
+}
+
+
